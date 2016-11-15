@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 .idea/
+#Ignore spring files
+/spring/*.pid
+Guardfile
