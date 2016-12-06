@@ -23,7 +23,6 @@ class PasswordResetsController < ApplicationController
   end
 
   def update
-
     if password_blank?
       flash.now[:danger] = 'Password cannot be blank'
       render 'edit'
